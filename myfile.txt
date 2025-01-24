@@ -1,0 +1,33 @@
+# Example of a simple Python program
+
+# Function to add two numbers
+def add_numbers(a, b):
+    return a + b
+
+# Function to subtract two numbers
+def subtract_numbers(a, b):
+    return a - b
+
+# Function to multiply two numbers
+def multiply_numbers(a, b):
+    return a * b
+
+# Function to divide two numbers
+def divide_numbers(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Cannot divide by zero"
+
+# Main function to demonstrate the usage of above functions
+def main():
+    num1 = 10
+    num2 = 5
+
+    print(f"Addition of {num1} and {num2} is: {add_numbers(num1, num2)}")
+    print(f"Subtraction of {num1} and {num2} is: {subtract_numbers(num1, num2)}")
+    print(f"Multiplication of {num1} and {num2} is: {multiply_numbers(num1, num2)}")
+    print(f"Division of {num1} and {num2} is: {divide_numbers(num1, num2)}")
+
+if __name__ == "__main__":
+    main()
